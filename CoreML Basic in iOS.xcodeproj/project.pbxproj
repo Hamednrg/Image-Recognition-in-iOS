@@ -13,6 +13,8 @@
 		05596B1126FDD41600DD7460 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05596B0F26FDD41600DD7460 /* Main.storyboard */; };
 		05596B1326FDD41800DD7460 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05596B1226FDD41800DD7460 /* Assets.xcassets */; };
 		05596B1626FDD41800DD7460 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05596B1426FDD41800DD7460 /* LaunchScreen.storyboard */; };
+		05596B1E26FDD55F00DD7460 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05596B1D26FDD55F00DD7460 /* Extensions.swift */; };
+		05596B2226FDD74800DD7460 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 05596B2126FDD74800DD7460 /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		05596B1226FDD41800DD7460 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05596B1526FDD41800DD7460 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05596B1726FDD41800DD7460 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05596B1D26FDD55F00DD7460 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		05596B2126FDD74800DD7460 /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		05596B0826FDD41600DD7460 /* CoreML Basic in iOS */ = {
 			isa = PBXGroup;
 			children = (
+				05596B1D26FDD55F00DD7460 /* Extensions.swift */,
+				05596B2126FDD74800DD7460 /* GoogLeNetPlaces.mlmodel */,
 				05596B0926FDD41600DD7460 /* AppDelegate.swift */,
 				05596B0B26FDD41600DD7460 /* SceneDelegate.swift */,
 				05596B0D26FDD41600DD7460 /* ViewController.swift */,
@@ -138,8 +144,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				05596B0E26FDD41600DD7460 /* ViewController.swift in Sources */,
+				05596B2226FDD74800DD7460 /* GoogLeNetPlaces.mlmodel in Sources */,
 				05596B0A26FDD41600DD7460 /* AppDelegate.swift in Sources */,
 				05596B0C26FDD41600DD7460 /* SceneDelegate.swift in Sources */,
+				05596B1E26FDD55F00DD7460 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
